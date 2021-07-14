@@ -20,6 +20,10 @@ body {
     align-items: center;
 }
 
+.banner img:hover{
+    transform: rotate3d(0,1,0,180deg);
+    transition: 3s;
+}
 .link-button {
     text-decoration: none;
     background-color: #E02C6D;
